@@ -1,5 +1,5 @@
 .spinner {
-  @apply max-w-prose mx-auto px-10 flex justify-center pt-32;
+  @apply max-w-screen-md mx-auto px-10 flex justify-center pt-32;
 }
 
 .article {
@@ -19,7 +19,7 @@
 }
 
 .aside {
-  @apply max-w-prose mx-auto px-10 border-t border-gray-500 mt-6 py-6 mb-6;
+  @apply max-w-screen-md mx-auto px-10 border-t border-gray-500 mt-6 py-6 mb-6;
 
   p {
     @apply font-bold leading-normal;
