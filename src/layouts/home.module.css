@@ -1,5 +1,5 @@
 .section {
-  @apply max-w-prose mx-auto px-10;
+  @apply max-w-2xl px-4 mx-auto my-10 prose;
 }
 
 .nav {
