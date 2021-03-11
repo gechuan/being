@@ -15,7 +15,7 @@ export const getStaticProps: GetStaticProps<HomePageProps> = async () => {
   // fetch all pages
   if (notes.length < site.total_notes) {
     for await (let page of Array.from(
-      { length: Math.ceil(site.total_notes / 40) },
+      { length: Math.ceil(site.total_notes / 5) },
       (_, index) => index + 1
     )) {
       if (page === 1) continue;
